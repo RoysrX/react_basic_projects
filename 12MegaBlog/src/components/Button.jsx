@@ -12,7 +12,7 @@ function Button({
         <button className={`px-4 py-4 rounded-lg ${bgColor} ${textColor} ${className}`} {...props}>
             {Children}
         </button>
-    )
+    ) 
 }
 
 export default Button
